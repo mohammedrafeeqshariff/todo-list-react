@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(74, 173, 173);
+}
+#root {
+    /* max-width: 1280px; */
+    margin: 0 auto;
+    /* padding: 2rem; */
+    text-align: center;
+  }
+
+.adding-todo{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+#input_tag{
+    font-size: xx-large;
+}
+
+.add-button{
+    background-color: bisque;
+    color: black;
+    margin-left:10px ;
+}
+
+.todo-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.todo-item{
+    font-size: xx-large;
+}
+
+.delete-button{
+    background-color: bisque;
+    color: black;
+    margin-left: 10px;
+}
